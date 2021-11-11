@@ -11,8 +11,9 @@ import SwiftUI
 struct Thinking_in_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-           // ContentView()
-            ExampleView()
+            //ContentView()
+           // ExampleView()
+            LabelContentView()
         }
     }
 }
