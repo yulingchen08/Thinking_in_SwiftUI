@@ -10,7 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            .frame(width: 200, height: 100) //比.frame(width: 400, height: 200)上面一層
+            .background(Color.green)
+            .frame(width: 400, height: 200) // 最底層
+            .background(Color.red)
     }
 }
 
