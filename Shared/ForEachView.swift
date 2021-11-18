@@ -13,6 +13,7 @@ struct ForEachView: View {
         ForEach(1...3, id: \.self) { x in
             Text("Item \(x)")
         }
+    
     }
 }
 
@@ -21,16 +22,5 @@ struct ForEachView: View {
 struct ForEachView_Previews: PreviewProvider {
     static var previews: some View {
         ForEachView()
-    }
-}
-
-
-class Master {
-    var pet: Pet
-    init(pet: Pet) {
-        self.pet = pet
-    }
-    func pokePet() {
-        pet.wasPoked()
     }
 }
