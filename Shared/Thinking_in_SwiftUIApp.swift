@@ -13,7 +13,8 @@ struct Thinking_in_SwiftUIApp: App {
         WindowGroup {
             //ContentView()
            // ExampleView()
-            LabelContentView()
+           // LabelContentView()
+            KnobContentView()
         }
     }
 }
